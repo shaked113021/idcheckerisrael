@@ -6,7 +6,7 @@ object IdChecker {
     private val numberSize = 9
 
     fun checkLength(idNumber: String) : Boolean {
-        return idNumber.length == numberSize;
+        return idNumber.length == numberSize
     }
 
     fun checkInteger(idNumber: String) : Boolean {
@@ -19,11 +19,11 @@ object IdChecker {
     }
 
     fun checkDigitTest(idNumber: String) : Boolean {
-        var weightedSum: Int = 0;
+        var weightedSum: Int = 0
         for(i in 0 until numberSize - 1) {
             var weightedDigit: Int = idNumber[i].toInt() - 48
             if(i % 2 == 1) {
-                weightedDigit *= 2;
+                weightedDigit *= 2
             }
             weightedSum += weightedDigit / 10 + weightedDigit % 10
         }

@@ -17,6 +17,7 @@
         android:hint="@string/id_editText_hint"
         android:inputType="numberSigned"
         android:maxLength="9"
+        android:textDirection="ltr"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />

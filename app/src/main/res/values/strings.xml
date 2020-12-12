@@ -2,8 +2,7 @@
     <string name="app_name">ID Checker Israel</string>
     <string name="is_valid">ID is Valid</string>
     <string name="is_not_valid">ID is not valid</string>
-    <string name="length_error">ID must be 9 digit long</string>
-    <string name="negative_error">ID must be a positive number</string>
+    <string name="length_error">ID must be 9 digits long</string>
     <string name="check_button">Check</string>
     <string name="id_editText_hint">ID number</string>
 </resources>

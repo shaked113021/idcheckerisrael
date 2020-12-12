@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">בודק מספר זהות</string>
+    <string name="is_valid">מספר זהות תקין</string>
+    <string name="is_not_valid">מספר זהות לא תקין</string>
+    <string name="length_error">מספר זהות חייב להיות באורך 9 ספרות</string>
+    <string name="check_button">בדוק</string>
+    <string name="id_editText_hint">מספר זהות</string>
+</resources>
